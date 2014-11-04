@@ -1,4 +1,4 @@
-FROM node:0.10.33
+FROM heroku/node:0.10.33
 
 RUN mkdir -p /usr/src/app
 WORKDIR /usr/src/app
